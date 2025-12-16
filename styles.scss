@@ -116,6 +116,12 @@ body {
     cursor: pointer;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    h2 {
+      transition: none;
+    }
+  }
+
   p {
     align-self: stretch;
     color: $color-gray-500;
