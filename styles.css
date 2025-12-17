@@ -87,7 +87,7 @@ body {
   color: #fff;
   cursor: pointer;
 }
-.content-container h2 {
+.content-container h1 {
   align-self: stretch;
   color: #111;
   font-family: "Figtree", sans-serif;
@@ -97,9 +97,14 @@ body {
   line-height: 150%;
   transition: color 0.3s ease;
 }
-.content-container h2:hover {
+.content-container h1:hover {
   color: #f4d04e;
   cursor: pointer;
+}
+@media (prefers-reduced-motion: reduce) {
+  .content-container h1 {
+    transition: none;
+  }
 }
 .content-container p {
   align-self: stretch;

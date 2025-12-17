@@ -100,7 +100,7 @@ body {
     cursor: pointer;
   }
 
-  h2 {
+  h1 {
     align-self: stretch;
     color: $color-gray-950;
     font-family: $font-family;
@@ -111,13 +111,13 @@ body {
     transition: color 0.3s ease;
   }
 
-  h2:hover{
+  h1:hover{
     color: $color-yellow;
     cursor: pointer;
   }
 
   @media (prefers-reduced-motion: reduce) {
-    h2 {
+    h1 {
       transition: none;
     }
   }
